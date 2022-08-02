@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.pngkey.com/png/full/12-121924_basketball-logo-sport-fire-basketball-vector-art.png" width="60" height="60"/>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <header>
+        <!--imagen header--> 
+    </header>
+    
+    <nav>
+      <div class="barra">   
+        <img class="icono-tienda"> <a href="#"><img src="https://www.pngkey.com/png/full/12-121924_basketball-logo-sport-fire-basketball-vector-art.png" width="60" height="60"> </a> </img>
+        <ul>
+            <li class="barra-li-1"> <a href="./pages/user.html"><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" width="40" height="40"> </a> </li>
+            <li class="barra-li-2"> <a href="./pages/carrito.html"><img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" width="40" height="40"> </a> </li>
+        </ul>
+      </div>
+      <div class="barra-2">
+        <ul>
+            <li>  <a href="../index.html">Inicio</a></li>
+            <li>  <a href="indumentaria.html">Indumentaria</a></li>
+            <li>  <a href="calzado.html">Calzado</a></li>
+            <li>  <a href="accesorios.html">Accesorios</a></li>
+            <li>  <a href="#">Contacto</a></li>
+        </ul>
+      </div>
+</body>
+<div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Contactate con nosotros</h1>
+          <form action="submeter-formulario.php" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Tu telefono">
+                </p>
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                    </label>                    
+                <p> <input name="introducir_mensaje" class="texto_mensaje" id="mensaje" placeholder="Tus dudas"></input> 
+            </p> 
+          </p>                    
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+  </div>  
+  </div>
+  <footer>
+    <p>Copyright 2021-2022 AllKicks, todos los derechos reservados.</p>
+</footer>
+</html>
