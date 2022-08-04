@@ -92,7 +92,7 @@ grid-template-rows: repeat(5, 1fr);
 grid-column-gap: 22px;
 grid-row-gap: 16px;
 }
-.ind-1{ grid-area: 2 / 2 / 3 / 3; }
+.card{ grid-area: 2 / 2 / 3 / 3; }
 .ind-2{ grid-area: 2 / 3 / 3 / 4; }
 .ind-3{ grid-area: 2 / 4 / 3 / 5; }
 .ind-4{ grid-area: 2 / 5 / 3 / 6; }
@@ -100,3 +100,8 @@ grid-row-gap: 16px;
 .ind-6{ grid-area: 3 / 3 / 4 / 4; }
 .ind-7{ grid-area: 3 / 4 / 4 / 5; }
 .ind-8{ grid-area: 3 / 5 / 4 / 6; }
+.dropdown-center{
+    display: flex;
+    justify-content: center;
+    
+}
