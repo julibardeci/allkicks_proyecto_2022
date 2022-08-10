@@ -23,15 +23,46 @@
             <li class="barra-li-2"> <a href="./pages/carrito.html"><img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" width="40" height="40"> </a> </li>
         </ul>
     </div>
-    <div class="barra-2">
-    <ul>
-            <li>  <a href="../index.html">Inicio</a></li>
-            <li>  <a href="#">Indumentaria</a></li>
-            <li>  <a href="calzado.html">Calzado</a></li>
-            <li>  <a href="accesorios.html">Accesorios</a></li>
-            <li>  <a href="contacto.html">Contacto</a></li>
-        </ul>
-    </div>
+    <div class="barra-3">
+        <ul>
+          <li> <a href="../index.html"><button type="button" class="btn btn-secondary">Inicio</button></a></li>
+          <li>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Indumentaria
+              </a>
+            
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Remeras</a></li>
+                <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                <li><a class="dropdown-item" href="#">Shorts</a></li>
+              </ul>
+            </div>
+          </li>
+          <div class="dropdown-center">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Calzado
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Zapatillas</a></li>
+          </ul>
+        </div>
+        <li>
+        <div class="dropdown-center">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Accesorios
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Medias</a></li>
+            <li><a class="dropdown-item" href="#">Pelotas</a></li>
+            <li><a class="dropdown-item" href="#">Aros</a></li>
+          </ul>
+        </div>
+      </li>
+      <li> <a href="./pages/contacto.html"><button type="button" class="btn btn-secondary">Contacto</button></a>
+      </li>
+    </ul>
+      </div>
     </nav>
     <h1>Indumentaria</h1>
     <div>
@@ -40,21 +71,44 @@
     <main>
         <section>
             <article>
-                <div class="indu">
-                  <div class="card" style="width: 230px;">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMTQKJ7bv9Oww96dVGi-3z_O_ZhGk5OUo-u8UwyhvkHXamO3Nm2Zy-KO6u1p7VDeUSkjY&usqp=CAU" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">Musculosa Dallas Mavericks</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Vista previa</a>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card"  style="width: 220px">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-kmgih-B51hw2HYIAjeYkhNmgH8UPE8TxPw&usqp=CAU" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Camiseta Boston Celtics</h5>
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores necessitatibus ipsam, dolor eligendi laudantium iste.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 220px">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2s9FVSt1P5eN_fVHmw2kLTeNKkeqsJHZ74Q&usqp=CAU" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Camiseta Milwaukee Bucks</h5>
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores necessitatibus ipsam, dolor eligendi laudantium iste.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 220px">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFR-y7ew0iu42bG2idFpJ1JMsJ8pTVad59_w&usqp=CAU" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Camiseta Atlanta Hawks</h5>
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores necessitatibus ipsam, dolor eligendi laudantium iste.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 220px">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREQo0SB1vf2cpmtkUZc7DqWtuHkwxqk7Lm-A&usqp=CAU" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Camiseta Chicago Bulls</h5>
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores necessitatibus ipsam, dolor eligendi laudantium iste.</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                    <img class="ind-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-kmgih-B51hw2HYIAjeYkhNmgH8UPE8TxPw&usqp=CAU" width="200" height="250">
-                    <img class="ind-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2s9FVSt1P5eN_fVHmw2kLTeNKkeqsJHZ74Q&usqp=CAU" widht="200" height="250">
-                    <img class="ind-5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFR-y7ew0iu42bG2idFpJ1JMsJ8pTVad59_w&usqp=CAU" width="200" height="250">
-                    <img class="ind-6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREQo0SB1vf2cpmtkUZc7DqWtuHkwxqk7Lm-A&usqp=CAU" widht="200" height="250">
-                    <img class="ind-7" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEO-TzKI7p6eiLmPXvfbRXy4QZE-ReLLzQ-g&usqp=CAU" widht="200" height="250">
-                    <img class="ind-8" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStmhiZb9IGXEN-rrRnr3xiaCTSsrlpONMzRg&usqp=CAU" width="200" height="250">
                 </div>
             </article>
         </section>

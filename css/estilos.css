@@ -7,14 +7,6 @@
     display: flex;
     justify-content: space-between;
 }
-.barra-2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #E84545;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-}
 ul{list-style: none;
     width: 250px;
     height: auto;
@@ -100,8 +92,17 @@ grid-row-gap: 16px;
 .ind-6{ grid-area: 3 / 3 / 4 / 4; }
 .ind-7{ grid-area: 3 / 4 / 4 / 5; }
 .ind-8{ grid-area: 3 / 5 / 4 / 6; }
-.dropdown-center{
+.barra-3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #E84545;
+    margin: auto;
     display: flex;
     justify-content: center;
-    
+    text-decoration: none;
+    padding-top: 10px;
+}
+.btn-secondary{
+    background-color: #E84545;
+    color: #ffffff;
+    border-color: #EADEDE;
 }
